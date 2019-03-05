@@ -1,0 +1,30 @@
+
+///////////////////////////////////////////////
+//EXERCICIO 5
+/*Nomes: Gabriel Ferreira*/
+
+
+#include <stdio.h>
+#include <math.h>
+
+typedef struct paciente{
+
+    int batimento;
+    int glicose;
+    int colesterol;
+    int trigliceridios;
+
+};
+
+
+void main(){
+struct paciente teste;
+teste.batimento = 60;
+teste.glicose = 20;
+teste.colesterol = 60;
+teste.trigliceridios = 80;
+
+
+printf("Prontuario do paciente: \n \n   Batimentos: %i / minuto \n \n Glicose: %i Mg/dl\n \n Colesterol: %i Mg/dl\n \n Tringlicerideos: %i Mg/dl\n \n", teste.batimento, teste.glicose, teste.colesterol, teste.trigliceridios);
+
+}
